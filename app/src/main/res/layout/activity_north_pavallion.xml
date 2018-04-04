@@ -9,32 +9,37 @@
 
 
     <Button
-        android:id="@+id/outer_periferry_button"
+        android:id="@+id/outer_periphery_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/outer_periferry" />
+        android:text="@string/outer_periferry"
+        android:onClick="work_specification_btn"/>
 
     <Button
         android:id="@+id/ground_floor_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ground_floor" />
+        android:text="@string/ground_floor"
+        android:onClick="work_specification_btn"/>
 
     <Button
             android:id="@+id/media_box_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/media_box" />
+        android:text="@string/media_box"
+        android:onClick="work_specification_btn"/>
 
     <Button
         android:id="@+id/second_floor_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/second_floor" />
+        android:text="@string/second_floor"
+        android:onClick="work_specification_btn"/>
 
     <Button
         android:id="@+id/third_floor_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/third_floor" />
+        android:text="@string/third_floor"
+        android:onClick="work_specification_btn"/>
 </LinearLayout>

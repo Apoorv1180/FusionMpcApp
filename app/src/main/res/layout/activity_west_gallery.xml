@@ -12,24 +12,28 @@
         android:id="@+id/west_outer_periphery_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/outer_periferry" />
+        android:text="@string/outer_periferry"
+        android:onClick="work_specification_btn"/>
 
     <Button
         android:id="@+id/west_ground_floor_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ground_floor" />
+        android:text="@string/ground_floor"
+        android:onClick="work_specification_btn"/>
 
     <Button
         android:id="@+id/west_first_floor_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/first_floor" />
+        android:text="@string/first_floor"
+        android:onClick="work_specification_btn"/>
 
     <Button
         android:id="@+id/west_second_floor_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/second_floor" />
+        android:text="@string/second_floor"
+        android:onClick="work_specification_btn"/>
 
 </LinearLayout>

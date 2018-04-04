@@ -51,6 +51,7 @@
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:text="@string/sign_up"
+        android:onClick="sign_up"
         android:background="@color/colorAccent"/>
         <Button
             android:id="@+id/submit_button"
@@ -59,7 +60,9 @@
             android:layout_margin="20dp"
             android:textSize="18sp"
             android:layout_height="wrap_content"
+
             android:text="@string/submit"
+            android:onClick="sign_in"
             android:background="@color/colorAccent"/>
     </LinearLayout>
 

@@ -17,19 +17,22 @@
         android:id="@+id/work_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/WORK"/>
+        android:text="@string/WORK"
+        android:onClick="work_btn"/>
 
     <Button
         android:id="@+id/stock_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/stock" />
+        android:text="@string/stock"
+        android:onClick="stock_btn"/>
 
     <Button
         android:id="@+id/report_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/report" />
+        android:text="@string/report"
+        android:onClick="report_btn"/>
 
 
 
