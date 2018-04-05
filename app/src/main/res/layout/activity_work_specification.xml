@@ -1,47 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WorkSpecificationActivity"
+    android:background="@color/colorPrimary"
     android:orientation="vertical"
-    >
+    tools:context=".WorkSpecificationActivity">
 
 
-    <Button
-        android:id="@+id/infrastructure_button"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/infrastructure"
-        android:onClick="infrastructure_btn"/>
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp">
 
-    <Button
-        android:id="@+id/chair_maintainance_button"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_weight=".25"
+                android:background="@drawable/civil" />
+
+            <Button
+                android:id="@+id/infrastructure_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".75"
+                android:background="@android:color/white"
+                android:onClick="infrastructure_btn"
+                android:text="@string/infrastructure"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/chair_maintainance"
-        android:onClick="chair_maintainance_btn"/>
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp">
 
-    <Button
-        android:id="@+id/electricity_button"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_weight=".25"
+                android:background="@drawable/chair" />
+
+            <Button
+                android:id="@+id/chair_maintainance_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".75"
+                android:background="@android:color/white"
+                android:onClick="chair_maintainance_btn"
+                android:text="@string/chair_maintainance"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/electricity"
-        android:onClick="electricity_btn"/>
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp">
 
-    <Button
-        android:id="@+id/house_keeping_button"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_weight=".25"
+                android:background="@drawable/electricity" />
+
+            <Button
+                android:id="@+id/electricity_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".75"
+                android:background="@android:color/white"
+                android:onClick="electricity_btn"
+                android:text="@string/electricity"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/house_keeping"
-        android:onClick="house_keeping_btn"/>
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp">
 
-    <Button
-        android:id="@+id/any_other_specification_issue_button"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_weight=".25"
+                android:background="@drawable/cleaning" />
+
+            <Button
+                android:id="@+id/house_keeping_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".75"
+                android:background="@android:color/white"
+                android:onClick="house_keeping_btn"
+                android:text="@string/house_keeping"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/any_other_specification_issue"
-        android:onClick="other_issue_btn"/>
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_weight=".25"
+                android:background="@drawable/issue" />
+
+            <Button
+                android:id="@+id/any_other_specification_issue_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".75"
+                android:background="@android:color/white"
+                android:onClick="other_issue_btn"
+                android:text="@string/any_other_specification_issue"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
 </LinearLayout>
+</ScrollView>

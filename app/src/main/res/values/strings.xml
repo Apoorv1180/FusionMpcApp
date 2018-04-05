@@ -32,7 +32,7 @@
     <string name="chair_maintainance">CHAIR MAINTAINANCE</string>
     <string name="electricity">ELECTRICITY</string>
     <string name="house_keeping">HOUSE KEEPING</string>
-    <string name="any_other_specification_issue">ANY OTHER SPECIFICATION ISSUE</string>
+    <string name="any_other_specification_issue">OTHER SPECIFIC ISSUE</string>
     <string name="issue_description">ISSUE DESCRIPTION</string>
     <string name="civil">CIVIL</string>
     <string name="lift">LIFT</string>
