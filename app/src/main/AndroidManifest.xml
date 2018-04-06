@@ -16,20 +16,39 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".RegistrationActivity"
+            />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".WorkAreaActivity" />
-        <activity android:name=".NorthPavallionActivity" />
-        <activity android:name=".SouthPavallionActivity" />
-        <activity android:name=".EastGalleryActivity" />
-        <activity android:name=".WestGalleryActivity" />
-        <activity android:name=".AdminBlockActivity" />
-        <activity android:name=".WorkSpecificationActivity" />
-        <activity android:name=".InfrastructureActivity" />
-        <activity android:name=".ChairMaintainanceActivity" />
-        <activity android:name=".ElectricityActivity" />
-        <activity android:name=".HouseKeepingActivity" />
-        <activity android:name=".AnyOtherIssueActivity"></activity>
+        <activity android:name=".WorkAreaActivity"
+            android:parentActivityName=".ProfileActivity"/>
+
+        <activity android:name=".NorthPavallionActivity"
+            android:parentActivityName=".WorkAreaActivity"/>
+
+        <activity android:name=".SouthPavallionActivity"
+            android:parentActivityName=".WorkAreaActivity"/>
+
+        <activity android:name=".EastGalleryActivity"
+            android:parentActivityName=".WorkAreaActivity"/>
+
+        <activity android:name=".WestGalleryActivity"
+            android:parentActivityName=".WorkAreaActivity"/>
+
+        <activity android:name=".AdminBlockActivity"
+            android:parentActivityName=".WorkAreaActivity"/>
+        <activity android:name=".WorkSpecificationActivity"
+            android:parentActivityName=".WorkAreaActivity"
+            />
+        <activity android:name=".InfrastructureActivity"
+            android:parentActivityName=".WorkSpecificationActivity"/>
+        <activity android:name=".ChairMaintainanceActivity"
+            android:parentActivityName=".WorkSpecificationActivity"/>
+        <activity android:name=".ElectricityActivity"
+            android:parentActivityName=".WorkSpecificationActivity"/>
+        <activity android:name=".HouseKeepingActivity"
+            android:parentActivityName=".WorkSpecificationActivity"/>
+        <activity android:name=".AnyOtherIssueActivity"
+            android:parentActivityName=".WorkSpecificationActivity"></activity>
     </application>
 
 </manifest>
