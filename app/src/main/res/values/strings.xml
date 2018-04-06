@@ -61,5 +61,6 @@
     <string name="create_account">Create Account</string>
     <string name="password1">Password</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="issue_desc">Issue Description</string>
 
 </resources>

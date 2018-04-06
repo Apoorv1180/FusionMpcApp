@@ -12,52 +12,52 @@
         tools:context=".CheckReportActivity"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/issue_raised_button"
-            android:layout_width="220dp"
-            android:layout_height="49dp"
-            android:layout_marginTop="40dp"
-            android:layout_gravity="center"
-           android:text="Important Issue Raised"
-            android:onClick="issue_raised_btn"/>
 
         <Button
-            android:id="@+id/south_pavallion_button"
-            android:layout_width="220dp"
-            android:layout_height="49dp"
+            android:id="@+id/infrastructure_button"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
             android:layout_marginTop="40dp"
             android:layout_gravity="center"
-            android:background="@drawable/southpavllion"
-            android:onClick="south_pavallion_btn"/>
+            android:background="@drawable/infrastructure"
+            android:onClick="infrastructure_btn"/>
 
 
         <Button
-            android:id="@+id/east_gallery_button"
-            android:layout_width="220dp"
-            android:layout_height="49dp"
+            android:id="@+id/chair_maintainance_button"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
             android:layout_marginTop="40dp"
             android:layout_gravity="center"
-            android:background="@drawable/eastgallery"
-            android:onClick="east_gallery_btn"/>
+            android:background="@drawable/chairmaintainance"
+            android:onClick="chair_maintainance_btn"/>
 
 
         <Button
-            android:id="@+id/west_gallery_button"
-            android:layout_width="220dp"
-            android:layout_height="49dp"
+            android:id="@+id/electricity_button"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
             android:layout_marginTop="40dp"
             android:layout_gravity="center"
-            android:background="@drawable/westgallery"
-            android:onClick="west_gallery_btn"/>
+            android:background="@drawable/electricity"
+            android:onClick="electricity_btn"/>
 
         <Button
-            android:id="@+id/admin_block_button"
-            android:layout_width="222dp"
-            android:layout_height="50dp"
+            android:id="@+id/house_keeping_button"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
             android:layout_marginTop="40dp"
             android:layout_gravity="center"
-            android:background="@drawable/admin"
-            android:onClick="admin_block_btn"/>
+            android:background="@drawable/housekeeping"
+            android:onClick="house_keeping_btn"/>
 
+        <Button
+            android:id="@+id/specific_issue_btn"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/otherissue"
+            android:onClick="specific_issue_btn"/>
     </LinearLayout>
 </RelativeLayout>

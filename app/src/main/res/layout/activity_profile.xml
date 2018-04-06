@@ -62,7 +62,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="100dp"
-        android:onClick="important_btn"/>
+        android:onClick="raise_issue_btn"/>
 
 
 

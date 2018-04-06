@@ -54,7 +54,22 @@
         <activity
             android:name=".AnyOtherIssueActivity"
             android:parentActivityName=".WorkSpecificationActivity" />
-        <activity android:name=".CheckReportActivity"></activity>
+        <activity android:name=".CheckReportActivity"
+            android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".InfraReport"
+            android:parentActivityName=".CheckReportActivity"/>
+        <activity android:name=".ChairMaintainanceReport"
+            android:parentActivityName=".CheckReportActivity"/>
+        <activity android:name=".ElectricityReport"
+            android:parentActivityName=".CheckReportActivity"/>
+        <activity android:name=".HouseKeepingReport"
+            android:parentActivityName=".CheckReportActivity"/>
+        <activity android:name=".OtherIssueReport"
+            android:parentActivityName=".CheckReportActivity"/>
+        <activity android:name=".StockAreaActivity"
+            android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".RaiseIssueAreaActivity"
+            android:parentActivityName=".ProfileActivity"/>
     </application>
 
 </manifest>
