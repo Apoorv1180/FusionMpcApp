@@ -9,8 +9,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp"
+    android:background="@drawable/all_background"
     tools:context=".RegistrationActivity">
 
 
@@ -20,14 +19,18 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="Create Account"
-        android:textSize="28sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@drawable/customborder1"
+        android:textSize="22sp"
         android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/titleTextView"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical">
 
         <TextView
@@ -43,7 +46,8 @@
             android:id="@+id/nameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:inputType="textPersonName" />
         <TextView
             android:id="@+id/emailTextView"
@@ -58,7 +62,7 @@
             android:id="@+id/emailEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
             android:inputType="textEmailAddress" />
 
         <TextView
@@ -72,7 +76,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
             android:orientation="horizontal">
 
             <Spinner
@@ -105,7 +109,7 @@
             android:id="@+id/organizationEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
             android:inputType="textPersonName" />
 
         <android.support.design.widget.TextInputLayout
@@ -117,7 +121,7 @@
                 android:id="@+id/passwordEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginTop="7dp"
                 android:hint="@string/password1"
                 android:inputType="textPassword" />
@@ -141,12 +145,11 @@
 
     <Button
         android:id="@+id/signupButton"
-        android:background="@drawable/button"
         android:textColor="#fff"
         android:textAllCaps="false"
+        android:background="@drawable/customborder1"
         android:textStyle="bold"
         android:textSize="15sp"
-        android:drawableRight="@drawable/ic_play_circle_outline_white_24dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="30dp"
@@ -174,7 +177,7 @@
             android:onClick="login"
             android:paddingLeft="5dp"
             android:text="@string/login_now"
-            android:textColor="@android:color/holo_blue_light"
+            android:textColor="@color/colorWhite"
             tools:ignore="OnClick" />
     </LinearLayout>
 
