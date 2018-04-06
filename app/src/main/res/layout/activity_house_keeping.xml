@@ -59,8 +59,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorBlue"
-                android:textColor="@color/colorWhite"
+                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:text="@string/dusting" />
 
             <RadioButton
@@ -69,8 +68,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorBlue"
-                android:textColor="@color/colorWhite"
+                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
                 android:text="@string/dry_mop" />
         </LinearLayout>
@@ -85,8 +83,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorBlue"
-                android:textColor="@color/colorWhite"
+                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
                 android:text="@string/deep_cleaning" />
 
@@ -96,8 +93,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorBlue"
-                android:textColor="@color/colorWhite"
+                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
                 android:text="@string/wet_mop" />
         </LinearLayout>
@@ -112,8 +108,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorBlue"
-                android:textColor="@color/colorWhite"
+                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
                 android:text="@string/chair_polish" />
 
@@ -123,8 +118,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorBlue"
-                android:textColor="@color/colorWhite"
+                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
                 android:text="@string/toilets" />
 
