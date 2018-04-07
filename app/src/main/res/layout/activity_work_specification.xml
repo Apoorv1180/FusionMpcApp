@@ -9,61 +9,52 @@
     tools:context=".WorkSpecificationActivity">
 
 
+    <Button
+        android:id="@+id/infrastructure_button"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/infrastructure"
+        android:onClick="infrastructure_btn" />
 
 
-            <Button
-                android:id="@+id/infrastructure_button"
-                android:layout_width="300dp"
-                android:layout_height="45dp"
-                android:layout_marginTop="40dp"
-                android:layout_gravity="center"
-                android:background="@drawable/infrastructure"
-                android:onClick="infrastructure_btn"
-                />
+    <Button
+        android:id="@+id/chair_maintainance_button"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/chairmaintainance"
+        android:onClick="chair_maintainance_btn" />
 
 
-            <Button
-                android:id="@+id/chair_maintainance_button"
-                android:layout_width="300dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="40dp"
-                android:onClick="chair_maintainance_btn"
-                android:background="@drawable/chairmaintainance"
-                />
+    <Button
+        android:id="@+id/electricity_button"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/electricity"
+        android:onClick="electricity_btn" />
+
+    <Button
+        android:id="@+id/house_keeping_button"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/housekeeping"
+        android:onClick="house_keeping_btn" />
 
 
-
-            <Button
-                android:id="@+id/electricity_button"
-                android:layout_width="300dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="40dp"
-                android:background="@drawable/electricity"
-                android:onClick="electricity_btn"
-                 />
-
-            <Button
-                android:id="@+id/house_keeping_button"
-                android:layout_width="300dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="40dp"
-                android:background="@drawable/housekeeping"
-                android:onClick="house_keeping_btn"
-                />
-
-
-
-            <Button
-                android:id="@+id/any_other_specification_issue_button"
-                android:layout_width="300dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="40dp"
-                android:background="@drawable/otherissue"
-                android:onClick="other_issue_btn"
-                 />
+    <Button
+        android:id="@+id/any_other_specification_issue_button"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/otherissue"
+        android:onClick="other_issue_btn" />
 
 </LinearLayout>

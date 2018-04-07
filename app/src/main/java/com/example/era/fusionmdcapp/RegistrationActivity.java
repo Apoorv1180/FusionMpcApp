@@ -12,26 +12,11 @@ import android.widget.TextView;
 public class RegistrationActivity extends AppCompatActivity {
 
 
-
-    private View.OnTouchListener mTouchListener = new View.OnTouchListener() {
-        @Override
-        public boolean onTouch(View view, MotionEvent motionEvent) {
-            mExtHasChanged = true;
-            return false;
-        }
-    };
-    private boolean mExtHasChanged = false;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
 
-        TextView login = (TextView) findViewById(R.id.textview2);
-        login.setPaintFlags(Paint.UNDERLINE_TEXT_FLAG);
-
-        Spinner spinner = (Spinner) findViewById(R.id.spinner_extension);
-        spinner.setOnTouchListener(mTouchListener);
     }
 
     public void sign_up_btn(View view){

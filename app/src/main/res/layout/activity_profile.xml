@@ -1,70 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:background="@drawable/all_background"
+    android:scaleType="fitXY"
     android:layout_height="match_parent">
-
 
 
     <Button
         android:id="@+id/work_button"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:layout_marginLeft="15dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="300dp"
-        android:layout_marginBottom="100dp"
-        android:background="@drawable/work"
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/work_new"
         android:onClick="work_btn" />
 
     <Button
         android:id="@+id/stock_button"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/stock"
-        android:layout_marginLeft="10dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="160dp"
-        android:layout_marginRight="210dp"
-        android:layout_alignRight="@+id/important_issue"
-        android:layout_weight="1"
-        android:onClick="stock_btn"/>
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/stock_new"
+        android:onClick="stock_btn" />
 
     <Button
         android:id="@+id/report_button"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/report"
-        android:layout_weight="1"
-        android:layout_marginLeft="10dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="160dp"
-        android:layout_marginRight="120dp"
-        android:layout_alignRight="@+id/important_issue"
-        android:onClick="report_btn"/>
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/report_new"
+        android:onClick="report_btn" />
 
     <Button
         android:id="@+id/important_issue"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/important_issue"
-        android:layout_weight="1"
-        android:layout_marginLeft="10dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="100dp"
-        android:onClick="raise_issue_btn"/>
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/importan_new"
+        android:onClick="raise_issue_btn" />
 
 
 
 
-</RelativeLayout>
+</LinearLayout>
