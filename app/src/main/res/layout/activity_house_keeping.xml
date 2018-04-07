@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +10,7 @@
     android:background="@drawable/all_background"
     android:orientation="vertical"
     tools:context=".HouseKeepingActivity">
+
 
     <ImageView
         android:id="@+id/house_keeping_image_view"
@@ -59,7 +63,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-
         android:backgroundTint="@color/colorPrimaryDark"
         android:ems="10"
         android:hint="@string/issue_description"
@@ -71,20 +74,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
-    <TextView
-        android:id="@+id/house_keeping_cleaning_percentage_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:textSize="18sp"
-        android:ems="10"
-        android:text="@string/cleaning_percentage" />
+
+        <TextView
+            android:id="@+id/house_keeping_cleaning_percentage_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:text="@string/cleaning_percentage"
+            android:textSize="18sp" />
         <Spinner
             android:id="@+id/percentage_spinner"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="40dp"
-            android:prompt="@string/spinner_title"/>
+            android:layout_marginRight="20dp" />
     </LinearLayout>
 
     <RadioGroup
@@ -187,6 +190,5 @@
         android:background="@drawable/customborder1"
         android:text="@string/save"
         android:textColor="@color/colorWhite" />
-
-
 </LinearLayout>
+</ScrollView>

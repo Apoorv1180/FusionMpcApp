@@ -63,8 +63,9 @@
     <string name="issue_desc">Issue Description</string>
     <string name="any_other">ANY OTHER</string>
 
-    <string name="spinner_title">--Select--</string>
+
     <string-array name="percentage_array">
+        <item>--Select--</item>
         <item> 0% </item>
         <item> 10% </item>
         <item> 20% </item>
