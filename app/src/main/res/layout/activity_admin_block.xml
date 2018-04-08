@@ -8,11 +8,19 @@
     tools:context=".AdminBlockActivity">
 
     <Button
+        android:id="@+id/ground_floor_button"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/groundfloor"
+        android:onClick="work_specification_btn"/>
+    <Button
         android:id="@+id/admin_first_floor_button"
         android:layout_width="220dp"
         android:layout_height="52dp"
         android:layout_gravity="center"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/firstfloor"
         android:onClick="work_specification_btn" />
 

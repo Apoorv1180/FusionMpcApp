@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,38 +19,74 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegistrationActivity"
-            />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".WorkAreaActivity"
-            android:parentActivityName=".ProfileActivity"/>
-
-        <activity android:name=".NorthPavallionActivity"
-            android:parentActivityName=".WorkAreaActivity"/>
-
-        <activity android:name=".SouthPavallionActivity"
-            android:parentActivityName=".WorkAreaActivity"/>
-
-        <activity android:name=".EastGalleryActivity"
-            android:parentActivityName=".WorkAreaActivity"/>
-
-        <activity android:name=".WestGalleryActivity"
-            android:parentActivityName=".WorkAreaActivity"/>
-
-        <activity android:name=".AdminBlockActivity"
-            android:parentActivityName=".WorkAreaActivity"/>
-        <activity android:name=".WorkSpecificationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ProfileActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".WorkAreaActivity"
+            android:parentActivityName=".ProfileActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".NorthPavallionActivity"
             android:parentActivityName=".WorkAreaActivity"
-            />
-        <activity android:name=".InfrastructureActivity"
-            android:parentActivityName=".WorkSpecificationActivity"/>
-        <activity android:name=".ChairMaintainanceActivity"
-            android:parentActivityName=".WorkSpecificationActivity"/>
-        <activity android:name=".ElectricityActivity"
-            android:parentActivityName=".WorkSpecificationActivity"/>
-        <activity android:name=".HouseKeepingActivity"
-            android:parentActivityName=".WorkSpecificationActivity"/>
-        <activity android:name=".AnyOtherIssueActivity"
-            android:parentActivityName=".WorkSpecificationActivity"></activity>
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SouthPavallionActivity"
+            android:parentActivityName=".WorkAreaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EastGalleryActivity"
+            android:parentActivityName=".WorkAreaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".WestGalleryActivity"
+            android:parentActivityName=".WorkAreaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AdminBlockActivity"
+            android:parentActivityName=".WorkAreaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".WorkSpecificationActivity"
+            android:parentActivityName=".WorkAreaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".InfrastructureActivity"
+            android:parentActivityName=".WorkSpecificationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ChairMaintainanceActivity"
+            android:parentActivityName=".WorkSpecificationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ElectricityActivity"
+            android:parentActivityName=".WorkSpecificationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".HouseKeepingActivity"
+            android:parentActivityName=".WorkSpecificationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AnyOtherIssueActivity"
+            android:parentActivityName=".WorkSpecificationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StockActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

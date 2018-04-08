@@ -2,8 +2,8 @@
     <string name="app_name">Match Maintainance</string>
     <string name="Login">LOGIN</string>
     <string name="submit">SIGN IN</string>
-    <string name="email_hint">Enter Your Email Id...</string>
-    <string name="password">Password...</string>
+    <string name="email_hint">Enter Your Phone Number...</string>
+    <string name="password">Enter OTP Recieved</string>
     <string name="sign_up">SIGN UP</string>
     <string name="name">NAME</string>
     <string name="already_have_an_account">Already have an account?</string>
@@ -61,5 +61,11 @@
     <string name="create_account">Create Account</string>
     <string name="password1">Password</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="important_issue">IMPORTANT ISSUE</string>
+    <string name="area">AREA</string>
+    <string name="EnterAreaAndBlock">Enter Your Area And Block</string>
+    <string name="sendCode">SEND CODE</string>
+    <string name="Verify">VERIFY OTP</string>
+    <string name="ResendCode">Resend Code</string>
 
 </resources>

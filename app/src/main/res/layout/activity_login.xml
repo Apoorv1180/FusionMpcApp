@@ -20,17 +20,58 @@
         android:textColor="@color/colorPrimaryDark" />
 
     <EditText
-        android:id="@+id/email_id_edit_text"
+        android:id="@+id/phone_number_edtxt"
         android:layout_width="match_parent"
         android:layout_margin="30dp"
         android:hint="@string/email_hint"
         android:textSize="18sp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
-        android:inputType="textEmailAddress" />
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/send_code_btn"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/sendCode"
+            android:onClick="sendCode"
+            android:background="@drawable/customborder1"/>
+
+        <Button
+            android:id="@+id/resend_code_btn"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/ResendCode"
+            android:onClick="resendCode"
+            android:background="@drawable/customborder1"/>
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:layout_width="40dp"
+        android:id="@+id/progress_bar"
+        android:layout_height="40dp"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
 
     <EditText
-        android:id="@+id/password_edit_text"
+        android:id="@+id/password_edtxt"
         android:layout_width="match_parent"
         android:layout_margin="30dp"
         android:textSize="18sp"
@@ -45,27 +86,17 @@
         android:layout_marginTop="30dp"
         android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/signup_button"
-        android:layout_width="match_parent"
-        android:layout_margin="20dp"
-        android:textSize="18sp"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:text="@string/sign_up"
-        android:textColor="@color/colorWhite"
-        android:onClick="sign_up"
-        android:background="@drawable/customborder1"/>
+
         <Button
-            android:id="@+id/submit_button"
+            android:id="@+id/verify_btn"
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:layout_margin="20dp"
             android:textSize="18sp"
             android:layout_height="wrap_content"
             android:textColor="@color/colorWhite"
-            android:text="@string/submit"
-            android:onClick="sign_in"
+            android:text="@string/Verify"
+            android:onClick="verifyOtp"
             android:background="@drawable/customborder1"/>
     </LinearLayout>
 

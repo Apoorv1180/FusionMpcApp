@@ -25,7 +25,7 @@
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:ems="10"
-        android:hint="@string/issue_description"
+        android:hint="@string/EnterAreaAndBlock"
         android:inputType="textPersonName" />
 
     <EditText
@@ -56,21 +56,23 @@
                 android:id="@+id/house_keeping_dusting_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
                 android:layout_weight="1"
                 android:background="@drawable/customborder"
-                android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
-                android:text="@string/dusting" />
+                android:buttonTint="@color/colorWhite"
+                android:text="@string/dusting"
+                android:textColor="@color/colorWhite" />
 
             <RadioButton
                 android:id="@+id/house_keeping_drymop_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
-                android:text="@string/dry_mop" />
+                android:background="@drawable/customborder"
+                android:buttonTint="@color/colorWhite"
+                android:text="@string/dry_mop"
+                android:textColor="@color/colorWhite" />
         </LinearLayout>
 
         <LinearLayout
@@ -81,21 +83,23 @@
                 android:id="@+id/house_keeping_deep_cleaning_radio_button"
                 android:layout_width="95dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
-                android:text="@string/deep_cleaning" />
+                android:background="@drawable/customborder"
+                android:buttonTint="@color/colorWhite"
+                android:text="@string/deep_cleaning"
+                android:textColor="@color/colorWhite" />
 
             <RadioButton
                 android:id="@+id/house_keeping_wetmop_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
-                android:text="@string/wet_mop" />
+                android:background="@drawable/customborder"
+                android:buttonTint="@color/colorWhite"
+                android:text="@string/wet_mop"
+                android:textColor="@color/colorWhite" />
         </LinearLayout>
 
         <LinearLayout
@@ -106,21 +110,23 @@
                 android:id="@+id/house_keeping_chair_polish_radio_button"
                 android:layout_width="92dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
-                android:text="@string/chair_polish" />
+                android:background="@drawable/customborder"
+                android:buttonTint="@color/colorWhite"
+                android:text="@string/chair_polish"
+                android:textColor="@color/colorWhite" />
 
             <RadioButton
                 android:id="@+id/house_keeping_toilets_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/customborder"
                 android:layout_marginTop="3dp"
-                android:buttonTint="@color/colorWhite"                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
-                android:text="@string/toilets" />
+                android:background="@drawable/customborder"
+                android:buttonTint="@color/colorWhite"
+                android:text="@string/toilets"
+                android:textColor="@color/colorWhite" />
 
         </LinearLayout>
     </RadioGroup>

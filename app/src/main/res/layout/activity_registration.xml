@@ -3,13 +3,15 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@drawable/all_background"
     android:layout_height="match_parent">
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/all_background"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         tools:context=".RegistrationActivity">
 
 
@@ -26,7 +28,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/titleTextView"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
             android:orientation="vertical">
 
             <TextView
@@ -142,7 +146,7 @@
                 android:id="@+id/signupButton"
                 android:textColor="#fff"
                 android:textAllCaps="false"
-                android:background="@color/colorPrimaryDark"
+                android:background="@drawable/customborder1"
                 android:textStyle="bold"
                 android:textSize="15sp"
                 android:layout_width="match_parent"
@@ -172,8 +176,7 @@
                     android:onClick="login"
                     android:paddingLeft="5dp"
                     android:text="@string/login_now"
-                    android:textColor="@color/colorWhite"
-                    android:background="@drawable/customborder1"
+                    android:textColor="@color/colorBlue"
                     tools:ignore="OnClick" />
             </LinearLayout>
 
