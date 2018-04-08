@@ -36,7 +36,7 @@
     <string name="issue_description">ISSUE DESCRIPTION</string>
     <string name="civil">CIVIL</string>
     <string name="lift">LIFT</string>
-    <string name="plumbing">PLUMBING</string>
+    <string name="plumbing">PLUMBING AND SANITATION</string>
     <string name="drainage">DRAINAGE</string>
     <string name="block">Block</string>
     <string name="seat_number">SEAT NUMBER</string>
@@ -47,25 +47,41 @@
     <string name="other">OTHER</string>
     <string name="save">SAVE</string>
     <string name="ac">AC</string>
-    <string name="light">LIGHT</string>
+    <string name="light">LIGHT AND FAN</string>
     <string name="fan">FAN</string>
-    <string name="wiring">WIRING</string>
-    <string name="any_other">ANY OTHER</string>
+    <string name="wiring">WIRING AND CABLING</string>
     <string name="toilets">TOILETS</string>
     <string name="chair_polish">CHAIR POLISH</string>
     <string name="wet_mop">WET MOP</string>
     <string name="deep_cleaning">DEEP CLEANING</string>
     <string name="dry_mop">DRY MOP</string>
     <string name="dusting">DUSTING</string>
-    <string name="cleaning_percentage">COMPLETED CLEANING PERCENTAGE</string>
+    <string name="cleaning_percentage">CLEANING COMPLETED</string>
     <string name="create_account">Create Account</string>
-    <string name="password1">Password</string>
-    <string name="confirm_password">Confirm Password</string>
     <string name="important_issue">IMPORTANT ISSUE</string>
     <string name="area">AREA</string>
     <string name="EnterAreaAndBlock">Enter Your Area And Block</string>
     <string name="sendCode">SEND CODE</string>
     <string name="Verify">VERIFY OTP</string>
     <string name="ResendCode">Resend Code</string>
+    <string name="password1">PASSWORD</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="issue_desc">Issue Description</string>
+
+
+    <string-array name="percentage_array">
+        <item>--Select--</item>
+        <item> 0% </item>
+        <item> 10% </item>
+        <item> 20% </item>
+        <item> 30% </item>
+        <item> 40% </item>
+        <item> 50% </item>
+        <item> 60% </item>
+        <item> 70% </item>
+        <item> 80% </item>
+        <item> 90% </item>
+        <item> 100% </item>
+    </string-array>
 
 </resources>

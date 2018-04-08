@@ -16,6 +16,19 @@ public class ProfileActivity extends AppCompatActivity {
         Intent intent = new Intent(ProfileActivity.this,WorkAreaActivity.class);
         startActivity(intent);
     }
+    public void report_btn(View view){
+        Intent intent = new Intent(ProfileActivity.this,CheckReportActivity.class);
+        startActivity(intent);
+    }
+   /* public void stock_btn(View view){
+        Intent intent = new Intent(ProfileActivity.this,StockAreaActivity.class);
+        startActivity(intent);
+    }*/
+    public void raise_issue_btn(View view){
+        Intent intent = new Intent(ProfileActivity.this,RaiseIssueAreaActivity.class);
+        startActivity(intent);
+    }
+
 
     public void stock_btn(View view){
         Intent intent = new Intent(ProfileActivity.this,StockActivity.class);

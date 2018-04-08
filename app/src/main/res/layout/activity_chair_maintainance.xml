@@ -3,30 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/all_background"
     android:orientation="vertical"
     tools:context=".ChairMaintainanceActivity">
 
+    <ImageView
+        android:id="@+id/house_keeping_image_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/camera" />
 
-    <EditText
-        android:id="@+id/chair_area_editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/colorPrimaryDark"
-        android:ems="10"
-        android:hint="@string/area"
-        android:inputType="textPersonName"
-        android:textAllCaps="true" />
     <EditText
         android:id="@+id/chair_block_editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:ems="10"
         android:hint="@string/block"
@@ -39,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:ems="10"
         android:hint="@string/seat_number"
@@ -53,7 +49,7 @@
 
         <RadioButton
             android:id="@+id/chair_screw_radio_button"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
             android:background="@drawable/customborder"
@@ -63,7 +59,7 @@
 
         <RadioButton
             android:id="@+id/chair_chair_repair_radio_button"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:background="@drawable/customborder"
@@ -74,7 +70,7 @@
 
         <RadioButton
             android:id="@+id/chair_seat_number_painting_radio_button"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:background="@drawable/customborder"
@@ -84,7 +80,7 @@
 
         <RadioButton
             android:id="@+id/chair_frame_repair_radio_button"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:background="@drawable/customborder"
@@ -94,7 +90,7 @@
 
         <RadioButton
             android:id="@+id/chair_other_radio_button"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:background="@drawable/customborder"
@@ -106,10 +102,10 @@
 
     <Button
         android:id="@+id/chair_save_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/customborder1"
         android:text="@string/save"
         android:textColor="@color/colorWhite"

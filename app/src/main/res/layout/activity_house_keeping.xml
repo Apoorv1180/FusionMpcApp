@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +11,7 @@
     android:orientation="vertical"
     tools:context=".HouseKeepingActivity">
 
+
     <ImageView
         android:id="@+id/house_keeping_image_view"
         android:layout_width="200dp"
@@ -16,29 +20,75 @@
         android:layout_marginTop="10dp"
         app:srcCompat="@drawable/camera" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="PAVALLION"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:text="P"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/house_keeping_percentage_edit_text"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:ems="10"
+            android:textSize="20sp"
+            android:maxLength="1"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
     <EditText
         android:id="@+id/house_keeping_comment_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="10dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:ems="10"
         android:hint="@string/EnterAreaAndBlock"
         android:inputType="textPersonName" />
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:id="@+id/house_keeping_cleaning_percentage_edit_text"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/colorPrimaryDark"
-        android:ems="10"
-        android:hint="@string/cleaning_percentage"
-        android:inputType="textPersonName" />
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/house_keeping_cleaning_percentage_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:text="@string/cleaning_percentage"
+            android:textSize="18sp" />
+        <Spinner
+            android:id="@+id/percentage_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp" />
+    </LinearLayout>
 
     <RadioGroup
         android:id="@+id/house_keeping_radio_group"
@@ -46,7 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="30dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -133,13 +183,12 @@
 
     <Button
         android:id="@+id/house_keeping_save_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/customborder1"
         android:text="@string/save"
         android:textColor="@color/colorWhite" />
-
-
 </LinearLayout>
+</ScrollView>
